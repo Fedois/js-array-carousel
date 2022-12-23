@@ -42,17 +42,18 @@ main{
 .back{
     position: absolute;
     background-color: white;
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
     transform: translateY(-50%);
     border-radius: 50%;
     text-align: center;
-    line-height: 30px;
+    line-height: 50px;
     font-size: 1.5rem;
 }
 .back{
     left: 0;
     top: 50%;
+    display: none;
 }
 .next{
     right: 0;
@@ -60,6 +61,7 @@ main{
 }
 .next:hover,
 .back:hover{
-    background-color: yellow;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
     cursor: pointer;
 }
