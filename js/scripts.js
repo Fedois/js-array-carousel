@@ -36,10 +36,6 @@ next.addEventListener('click',
         if(primaSlide == img.length - 1) {
         next.style.display = 'none'
         }
-        
-
-       
-    
     }
    
 )
